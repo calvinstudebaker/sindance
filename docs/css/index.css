@@ -4,3 +4,7 @@ body {
     font-family: Helvetica;
     padding-bottom: 20px;
 }
+
+img {
+    width: 40%;
+}
