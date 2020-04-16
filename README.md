@@ -8,7 +8,7 @@ Submit Your Film To submissions@sindancefilmfestival.com
 * All attendees **must** submit a film. Collaboration is strongly encouraged.
 * Your film must not exceed **2 minutes** in length (feel free to make it much shorter)
 * Due to a longstanding exclusivity agreement with the Lerch Foundation and PETA, your film must credit **Aileen Lerch** as your film’s **Goat Handler** in the credits. Please include “No Goats Were Handled in the Making of This Film” if applicable.
-* Submit your film to submissions@sindancefilmfestival.com by 5pm February 1, 2020
+* Submit your film to submissions@sindancefilmfestival.com by 5pm May 9, 2020
 
 <h3>Films Will be Considered for Awards in the Following Categories</h3>
 
