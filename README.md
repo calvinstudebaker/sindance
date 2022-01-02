@@ -8,7 +8,7 @@ Submit Your Film To https://sindancefilmfestival.com/submit.html
 -   All attendees **must** submit a film. Collaboration is strongly encouraged.
 -   Your film must not exceed **3 minutes** in length (feel free to make it much shorter)
 -   Due to a longstanding exclusivity agreement with the Lerch Foundation, your film must credit **Aileen Lerch** as your film’s **Goat Handler** in the credits. Please include “No Goats Were Handled in the Making of This Film” if applicable.
--   Submit your film to https://sindancefilmfestival.com/submit.html by 5pm March 27, 2021
+-   Submit your film to https://sindancefilmfestival.com/submit.html by 5pm Jan 22, 2022
 
 <h3>Films Will be Considered for Awards in the Following Categories</h3>
 
@@ -47,6 +47,9 @@ Submit Your Film To https://sindancefilmfestival.com/submit.html
 -   Best Costume Design
 -   Best “Design Thinking”
 -   Rookie of the Year
+-   Most Upsetting Camera Angle
+-   Longest Short Film
+-   Shortest Long Film
 -   Best Sequel
 -   Best Prequel
 -   Best Regular Old Quel
@@ -54,5 +57,5 @@ Submit Your Film To https://sindancefilmfestival.com/submit.html
 -   Least Likely to Win an Award… Award
 -   Isadora Duncan Award for Excellence in Choreography
 -   Mattflix™ Award for Best Pirated Film
+-   Critics Quarterly™ Award for Most Creatively Bankrupt Film
 -   Best All-Female Reboot
--   Cisco WebEx™ Award for Most Hassle-free Video Conferencing (sorry about this one)
