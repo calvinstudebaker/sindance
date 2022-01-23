@@ -34,7 +34,7 @@ img {
 
 .film-tile {
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px 40px;
     background-color: lightblue;
     color:  black !important;
     width: 300px;
@@ -42,8 +42,8 @@ img {
     text-align: left;
 }
 
-.film-tile > h3,h5,p {
-    text-decoration: none !important;
+a {
+    text-decoration: none;
 }
 
 .film-list {
