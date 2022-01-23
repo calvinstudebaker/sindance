@@ -37,9 +37,15 @@ img {
     padding: 20px 40px;
     background-color: lightblue;
     color:  black !important;
-    width: 300px;
+    width: 440px;
     margin-bottom: 10px;
     text-align: left;
+    transition: width 0.2s, filter 0.2s;
+}
+
+.film-tile:hover {
+    width:  450px;
+    filter: brightness(110%);
 }
 
 a {
