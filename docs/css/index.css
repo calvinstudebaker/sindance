@@ -37,10 +37,12 @@ img {
     padding: 40px;
     background-color: lightblue;
     color:  black !important;
-    text-underline-position: none !important;
     width: 300px;
     margin-bottom: 10px;
     text-align: left;
+}
+
+.film-tile > h3,h5,p {
     text-decoration: none !important;
 }
 
