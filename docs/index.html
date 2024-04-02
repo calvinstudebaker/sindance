@@ -8,10 +8,16 @@
     </head>
     <body>
         <div class="top-nav">
-            <a href="/" class="logo active">Sindance Film Festival</a>
-            <a href="/rules" style="margin-left: auto;">Rules</a>
-            <a href="/films">Film Gallery</a>
-            <a href="https://forms.gle/TSovpC8hBcERYQJh6" class="submit" target="_blank">Submit Your Film</a>
+            <a href="/" class="logo element active">Sindance Film Festival</a>
+            <a href="/rules" class="element" style="margin-left: auto;">Rules</a>
+            <div class="dropdown">
+                <button onclick="openDropdown()" class="dropdown-btn element">Film Gallery</button>
+                <div id="film-dropdown" class="dropdown-content">
+                    <a href="/films2024">2024</a>
+                    <a href="/films">Past Films</a>
+                </div>
+            </div>
+            <a href="https://forms.gle/TSovpC8hBcERYQJh6" class="submit element" target="_blank">Submit Your Film</a>
         </div>
         <div class="center">
             <h1>Independent Film is Back</h1>
@@ -27,6 +33,7 @@
             </a>
             </div>
         </div>
+        <script src="js/dropdown.js"></script>
     </body>
 </html>
 
