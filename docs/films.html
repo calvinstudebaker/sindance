@@ -3,15 +3,20 @@
     <head lang="en">
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
-
         <title>Sindance Film Festival</title>
     </head>
     <body>
         <div class="top-nav">
-            <a href="/" class="logo">Sindance Film Festival</a>
-            <a href="/rules" style="margin-left: auto;">Rules</a>
-            <a href="/films" class="active">Film Gallery</a>
-            <a href="https://forms.gle/TSovpC8hBcERYQJh6" class="submit" target="_blank">Submit Your Film</a>
+            <a href="/" class="logo element">Sindance Film Festival</a>
+            <a href="/rules" class="element" style="margin-left: auto;">Rules</a>
+            <div class="dropdown active">
+                <button onclick="openDropdown()" class="dropdown-btn element active">Film Gallery</button>
+                <div id="film-dropdown" class="dropdown-content">
+                    <a href="/films2024">2024</a>
+                    <a href="/films">Past Films</a>
+                </div>
+            </div>
+            <a href="https://forms.gle/TSovpC8hBcERYQJh6" class="submit element" target="_blank">Submit Your Film</a>
         </div>
         <div class="center">
             <div style="margin-top: 25px; padding: 0px 25px;">
@@ -666,5 +671,6 @@
                 </div>
             </div>
         </div>
+        <script src="js/dropdown.js"></script>
     </body>
 </html>
