@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Sindance Film Festival</title>
+    </head>
+    <body>
+        <div class="top-nav">
+            <a href="/" class="logo element">Sindance Film Festival</a>
+            <a href="/rules" class="element" style="margin-left: auto;">Rules</a>
+            <div class="dropdown active">
+                <button onclick="openDropdown()" class="dropdown-btn element active">Film Gallery</button>
+                <div id="film-dropdown" class="dropdown-content">
+                    <a href="/films2025">2025</a>
+                    <a href="/films2024">2024</a>
+                    <a href="/films">Past Films</a>
+                </div>
+            </div>
+            <a href="https://forms.gle/9sNRz2AHuLa9DkhLA" class="submit element" target="_blank">Submit Your Film</a>
+        </div>
+        <div class="center">
+            <div style="margin-top: 25px; padding: 0px 25px;">
+                <span class="film-author">Sindance Film Festival Lineup 2025</span>
+            </div>
+            <div class="film-row">
+                <div class="film-tile">
+                    <div class="film-info">
+                        <span class="film-title">Beans</span>
+                        <br />
+                        <span class="film-author">a film by Caroline and Justin Desrosiers</span>
+                        <br />
+                        <span class="film-award">Winner: Best Film</span>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kl0cREOx7bg?si=wqCaKwGm7q86huG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="film-tile">
+                    <div class="film-info">
+                        <span class="film-title">Bad Will Hunting</span>
+                        <br />
+                        <span class="film-author">a film by Dahkota Brown</span>
+                        <br />
+                        <span class="film-award">Winner: Worst Film</span>
+                    </div>
+                    <iframe src="https://drive.google.com/file/d/1Pw5YIaxoauQvhIUKcl4kd-1FwdrNfnZe/preview" allow="autoplay"></iframe>
+                </div>
+            </div>
+            <div class="film-row">
+                <div class="film-tile">
+                    <div class="film-info">
+                        <span class="film-title">The Real Houseplants of Tahoe</span>
+                        <br />
+                        <span class="film-author">a film by Annee Garton</span>
+                        <br />
+                        <span class="film-award">Winner: Most Average Film</span>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bRi-DiOI-GA?si=ImWC8hDfqEXFyiwb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="film-tile">
+                    <div class="film-info">
+                        <span class="film-title">23 and Pee</span>
+                        <br />
+                        <span class="film-author">a film by Calvin Studebaker and Christine Chung</span>
+                        <br />
+                        <span class="film-award">Winner: Most Irreverent</span>
+                    </div>
+                    <iframe src="https://drive.google.com/file/d/18LGe-nbOCoL3M1fvlDW-1lIzV9qt0Ktd/preview" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+        <script src="js/dropdown.js"></script>
+        <script src="js/films.js"></script>
+    </body>
+</html>

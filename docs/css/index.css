@@ -83,6 +83,12 @@ a {
 }
 .film-author {
     font-style: italic;
+    font-size: 17px;
+}
+
+.film-award {
+    font-style: italic;
+    font-size: 14px;
 }
 .film-info {
     margin-bottom: 15px;
