@@ -26,7 +26,7 @@ const films2025 = [
     {
         title: "30 for 30: Anaheim",
         author: "Grace Geller",
-        url: "https://drive.google.com/file/d/1KetHeOXOwFrt-ErgC5XutXJsj39EZ8FF/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/30+for+30_Anaheim.mp4",
         award: "Jimmy V ESPY Award for Perseverance"
     },
     {
@@ -104,7 +104,7 @@ const films2025 = [
     {
         title: "dopaminemaxxing",
         author: "Jordan Zietz",
-        url: "https://drive.google.com/file/d/1PGMwrA_p5lxIp0rL0P5lvI51Kw9hARpp/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/dopaminemaxxing.mp4",
         award: "Teen Choice Award"
     },
     {
@@ -170,7 +170,7 @@ const films2025 = [
     {
         title: "Kevin Nation Army",
         author: "Michael Stern, Kevin Crain, Malaika Murphy-Sierra, Alec Paget",
-        url: "https://drive.google.com/file/d/12_HtezkIdmow1IU1brwumv0CvPfOGOEd/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Kevin+Nation+Army.mp4",
         award: "Critics Quarterly Award for Most Creatively Bankrupt Film"
     },
     {
@@ -200,7 +200,7 @@ const films2025 = [
     {
         title: "Mishaps In The Mountains",
         author: "Dom Francks",
-        url: "https://drive.google.com/file/d/178n72OSNaO3k723okB-6Sg0xYf-Cg8BE/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Mishaps+in+the+Mountains.mov",
         award: "Best Location Scouting"
     },
     {
@@ -224,7 +224,7 @@ const films2025 = [
     {
         title: "PLASMR",
         author: "Kate & Pal",
-        url: "https://drive.google.com/file/d/1m4B5GAYZY1WwRssFTs0lYUhnJXIu0V9a/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/PLASMR.mp4",
         award: "Best Casting"
     },
     {
@@ -247,7 +247,7 @@ const films2025 = [
     {
         title: "The Cellar",
         author: "Samantha Bauer; Alex Cheney",
-        url: "https://drive.google.com/file/d/11F3Rycmx0EUn_pZ2PNujvIyA_OcHMkAE/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/The+Cellar.mp4",
         award: "Smoking Loon Award for Integrity in Film"
     },
     {
