@@ -25,8 +25,15 @@
                 <span class="film-author">Sindance Film Festival Awards 2025</span>
             </div>
             
-            <div id="mainImageContainer" style="display: flex; justify-content: center; margin: 20px 0;">
+            <!-- <div id="mainImageContainer" style="display: flex; justify-content: center; margin: 20px 0;">
                 <img id="mainAward" src="https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/1.gif" style="height: 500px;">
+            </div> -->
+            <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+                <button id="prevButton" onclick="prevAward()" style="font-size: 24px; padding: 10px 20px; background: none; border: none; color: white; cursor: pointer; border-radius: 5px;">←</button>
+                <div id="mainImageContainer" style="display: flex; justify-content: center;">
+                    <img id="mainAward" src="https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/1.gif" style="height: 500px;">
+                </div>
+                <button id="nextButton" onclick="nextAward()" style="font-size: 24px; padding: 10px 20px; background: none; border: none; color: white; cursor: pointer; border-radius: 5px;">→</button>
             </div>
 
             <div class="scroll-gallery" style="display: flex; gap: 20px; overflow-x: auto; padding: 20px;">
