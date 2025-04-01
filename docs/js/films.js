@@ -186,6 +186,12 @@ const films2025 = [
         award: "Longest Short Film"
     },
     {
+        title: "Mishaps In The Mountains",
+        author: "Dom Francks",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Mishaps+in+the+Mountains.mov",
+        award: "Best Location Scouting"
+    },
+    {
         title: "LOONACY",
         author: "Jeff, JoJo, & Mika Studebaker",
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Loonacy+Final.mov",
@@ -196,12 +202,6 @@ const films2025 = [
         author: "Paul Martinez",
         url: "https://www.youtube.com/embed/n1DCmMF8ElM?si=h7dSfx1DYHRrg56n",
         award: "Best Twist Ending"
-    },
-    {
-        title: "Mishaps In The Mountains",
-        author: "Dom Francks",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Mishaps+in+the+Mountains.mov",
-        award: "Best Location Scouting"
     },
     {
         title: "Mountains of Memory",
