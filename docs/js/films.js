@@ -122,7 +122,7 @@ const films2025 = [
     {
         title: "Friends Hut",
         author: "Kevin Crain",
-        url: "https://drive.google.com/file/d/1pO-Qj0ry7dBxzunhUubR86e7hbkcSZnk/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/FriendsHut.mp4",
         award: "Most Straightforward, Regular Old Film"
     },
     {
@@ -206,7 +206,7 @@ const films2025 = [
     {
         title: "Mountains of Memory",
         author: "Hunter Dudley, Grace Johnson",
-        url: "https://drive.google.com/file/d/13z-7N6cQfdE0PqR_SE7Vdu3mRZ6hhdt7/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Mountains+of+Memory.mp4",
         award: "Best Documentary"
     },
     {
@@ -218,7 +218,7 @@ const films2025 = [
     {
         title: "One Last Breath",
         author: "Megan Mondt, Gaby DiChrio, Daniel DiChiro",
-        url: "https://drive.google.com/file/d/1ORyokV31q4X607GYS6k2IuIsed_QNO5d/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/One+Last+Breath.mp4",
         award: "Best Family Film"
     },
     {
@@ -265,7 +265,7 @@ const films2025 = [
     {
         title: "The Roast",
         author: "Aidan Cullen & Evan DiMarco",
-        url: "https://drive.google.com/file/d/1-V_VHIWCObKB9y6hZMIQcStiCi0JIAE2/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/The+Roast.mp4",
         award: "Best Villian"
     },
     {
