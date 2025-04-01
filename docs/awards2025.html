@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Sindance Film Festival</title>
+    </head>
+    <body>
+        <div class="top-nav">
+            <a href="/" class="logo element">Sindance Film Festival</a>
+            <a href="/rules" class="element" style="margin-left: auto;">Rules</a>
+            <div class="dropdown">
+                <button onclick="openDropdown()" class="dropdown-btn element">Film Gallery</button>
+                <div id="film-dropdown" class="dropdown-content">
+                    <a href="/films2025">2025</a>
+                    <a href="/films2024">2024</a>
+                    <a href="/films">Past Films</a>
+                </div>
+            </div>
+            <a href="/awards" class="element active">Awards</a>
+            <a href="https://forms.gle/9sNRz2AHuLa9DkhLA" class="submit element" target="_blank">Submit Your Film</a>
+        </div>
+        <div class="center">
+            <div style="margin-top: 25px; padding: 0px 25px;">
+                <span class="film-author">Sindance Film Festival Awards 2025</span>
+            </div>
+            
+            <div id="mainImageContainer" style="display: flex; justify-content: center; margin: 20px 0;">
+                <img id="mainAward" src="https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/1.gif" style="height: 500px;">
+            </div>
+
+            <div class="scroll-gallery" style="display: flex; gap: 20px; overflow-x: auto; padding: 20px;">
+                <!-- Initial thumbnails loaded by awards.js -->
+            </div>
+
+            <style>
+                .scroll-gallery {
+                    overflow-y: auto;
+                    padding: 20px;
+                    -webkit-overflow-scrolling: touch;
+                }
+
+                /* .award-tile {
+                    flex: 0 0 auto;
+                    width: 500px;
+                    background: #f5f5f5;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                } */
+
+                img.award-tile {
+                    height: 50px;
+                }
+                img.award-tile:hover {
+                    filter: brightness(1.2);
+                    cursor: pointer;
+                }
+                img.award-tile {
+                    transition: filter 0.2s ease-in-out;
+                }
+
+                /* Hide scrollbar but keep functionality */
+                .scroll-gallery::-webkit-scrollbar {
+                    display: none;
+                }
+                
+                .scroll-gallery {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+            </style>
+        </div>
+        <script src="js/dropdown.js"></script>
+        <script src="js/awards.js"></script>
+    </body>
+</html>
