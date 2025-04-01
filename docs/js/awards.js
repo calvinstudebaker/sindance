@@ -1,17 +1,21 @@
 const numAwards = 61;
 
 function highlightAward(num) {
+    const mainAward = document.getElementById('mainAward');
     const scrollGallery = document.querySelector('.scroll-gallery');
     mainAward.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/${num}.gif`;
     // Find and scroll the thumbnail into view if it exists
     const thumbnails = scrollGallery.querySelectorAll('.award-tile');
+    thumbnails.forEach(img => img.classList.remove('selected'));
     const nextThumb = Array.from(thumbnails).find(img => img.src.includes(`${num}.gif`));
     if (nextThumb) {
         nextThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        nextThumb.classList.add('selected');
     }
 }
 
 function prevAward() {
+    const mainAward = document.getElementById('mainAward');
     const currentSrc = mainAward.src;
     const currentNum = parseInt(currentSrc.match(/(\d+)\.gif$/)[1]);
     
@@ -27,6 +31,7 @@ function prevAward() {
 }
 
 function nextAward() {
+    const mainAward = document.getElementById('mainAward');
     const currentSrc = mainAward.src;
     const currentNum = parseInt(currentSrc.match(/(\d+)\.gif$/)[1]);
     
@@ -54,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     // Track the last loaded award number
     let lastLoadedAward = 20;
-
+    highlightAward(1);
     // Add scroll event listener to load more awards
     scrollGallery.addEventListener('scroll', function() {
         // Check if scrolled to right edge
@@ -76,13 +81,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const mainAward = document.getElementById('mainAward');
-
     // Add click handlers to thumbnails
     scrollGallery.addEventListener('click', function(e) {
         if (e.target.classList.contains('award-tile')) {
-            mainAward.src = e.target.src;
-            e.target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            const awardNum = parseInt(e.target.src.match(/(\d+)\.gif$/)[1]);
+            highlightAward(awardNum);
         }
     });
 
