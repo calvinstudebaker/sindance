@@ -18,12 +18,15 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollGallery.addEventListener('click', function(e) {
         if (e.target.classList.contains('award-tile')) {
             mainAward.src = e.target.src;
+            e.target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         }
     });
 
     // Add keyboard navigation for awards
     document.addEventListener('keydown', function(e) {
         if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+            // Prevent default behavior for arrow keys
+            e.preventDefault();
             const currentSrc = mainAward.src;
             const currentNum = parseInt(currentSrc.match(/(\d+)\.gif$/)[1]);
             
@@ -40,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const thumbnails = scrollGallery.querySelectorAll('.award-tile');
             const nextThumb = Array.from(thumbnails).find(img => img.src.includes(`${nextNum}.gif`));
             if (nextThumb) {
-                nextThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+                nextThumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
             }
         }
     });
