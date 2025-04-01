@@ -300,52 +300,63 @@ const films2025 = [
     }
 ]
 
-let currentIndex = 4;
+let currentFilmIndex = 0;
+
+function addFilmRow() {
+    const filmRow = document.createElement('div');
+    filmRow.className = 'film-row';
+
+    for (let i = 0; i < 2; i++) {
+        if (currentFilmIndex + i < films2025.length) {
+            const film = films2025[currentFilmIndex + i];
+            const filmTile = document.createElement('div');
+            filmTile.className = 'film-tile';
+
+            filmTile.innerHTML = film.award ? `
+                <div class="film-info">
+                    <span class="film-title">${film.title}</span>
+                    <br />
+                    <span class="film-author">a film by ${film.author}</span>
+                    <br />
+                    <span class="film-award">Winner: ${film.award}</span>
+                </div>
+            ` : `
+                <div class="film-info">
+                    <span class="film-title">${film.title}</span>
+                    <br />
+                    <span class="film-author">a film by ${film.author}</span>
+                </div>
+            `;
+            let iframeHTML = `<iframe src="${film.url}" allow="autoplay"></iframe>`;
+            if (film.url.includes("youtube")) {
+                iframeHTML = `<iframe width="560" height="315" src="${film.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+            }
+            else if (film.url.includes("vimeo")) {
+                iframeHTML = `<iframe src="${film.url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+            }
+            filmTile.innerHTML += iframeHTML;
+            filmRow.appendChild(filmTile);
+        }
+    }
+
+    document.querySelector('.center').appendChild(filmRow);
+    currentFilmIndex += 2;
+}
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Add first 3 rows (6 films)
+    for (let row = 0; row < 3; row++) {
+        addFilmRow();
+    }
+});
+
 
 window.onscroll = function() {
-    console.log("scrolling");
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
-        console.log("scrolled to bottom");
-        if (currentIndex < films2025.length - 1) {
-            console.log("adding film row");
-            const filmRow = document.createElement('div');
-            filmRow.className = 'film-row';
-
-            for (let i = 0; i < 2; i++) {
-                if (currentIndex + i < films2025.length) {
-                    const film = films2025[currentIndex + i];
-                    const filmTile = document.createElement('div');
-                    filmTile.className = 'film-tile';
-
-                    filmTile.innerHTML = film.award ? `
-                        <div class="film-info">
-                            <span class="film-title">${film.title}</span>
-                            <br />
-                            <span class="film-author">a film by ${film.author}</span>
-                            <br />
-                            <span class="film-award">Winner: ${film.award}</span>
-                        </div>
-                    ` : `
-                        <div class="film-info">
-                            <span class="film-title">${film.title}</span>
-                            <br />
-                            <span class="film-author">a film by ${film.author}</span>
-                        </div>
-                    `;
-                    let iframeHTML = `<iframe src="${film.url}" allow="autoplay"></iframe>`;
-                    if (film.url.includes("youtube")) {
-                        iframeHTML = `<iframe width="560" height="315" src="${film.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-                    }
-                    else if (film.url.includes("vimeo")) {
-                        iframeHTML = `<iframe src="${film.url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
-                    }
-                    filmTile.innerHTML += iframeHTML;
-                    filmRow.appendChild(filmTile);
-                }
-            }
-
-            document.querySelector('.center').appendChild(filmRow);
-            currentIndex += 2;
+        if (currentFilmIndex < films2025.length - 1) {
+            addFilmRow();
         }
     }
 };
