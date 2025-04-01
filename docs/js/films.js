@@ -8,7 +8,7 @@ const films2025 = [
     {
         title: "Bad Will Hunting",
         author: "Dahkota Brown",
-        url: "https://drive.google.com/file/d/1Pw5YIaxoauQvhIUKcl4kd-1FwdrNfnZe/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Bad+Will+Hunting.mp4",
         award: "Worst Film"
     },
     {
@@ -20,7 +20,7 @@ const films2025 = [
     {
         title: "23 and Pee",
         author: "Calvin Studebaker and Christine Chung",
-        url: "https://drive.google.com/file/d/18LGe-nbOCoL3M1fvlDW-1lIzV9qt0Ktd/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/23+and+Pee.mp4",
         award: "Most Irreverent"
     },
     {
@@ -32,37 +32,37 @@ const films2025 = [
     {
         title: "A Doug Named Dog",
         author: "Leanna Castro, Pete Ross, Ari Sigal, Conner Nannini",
-        url: "https://drive.google.com/file/d/1UY6S37E9R-RkvCq7RALmQiNcZgFfZX2L/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/a+doug+named+dog.m4v",
         award: "Lowest Budget"
     },
     {
         title: "A Good Catch Up Between Friends",
         author: "Wyatt Bunce and Thomas Reidy",
-        url: "https://drive.google.com/file/d/1YxT1hvvli0CUpCoqlwkfOb32F0iq-F3I/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/A+Good+Catch+Up+Between+Friends.mov",
         award: "Best Acting"
     },
     {
         title: "about ewe",
         author: "Max Kohrman",
-        url: "https://drive.google.com/file/d/1vJpCxqhyvdnN84CrVF6ZBmCNQLBD2f1b/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Thinking+about+ewe.mp4",
         award: "Best Crying Moment"
     },
     {
         title: "America in The Hole",
         author: "Matt Simon",
-        url: "https://drive.google.com/file/d/1s7Qkog4C9v4wGPHIDLxXD5WJ2Zv25ikO/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/AmericaInTheHole.mp4",
         award: "Best Original Soundtrack"
     },
     {
         title: "Americans in The Netherlands",
         author: "Marley Studebaker and Sean Hammond",
-        url: "https://drive.google.com/file/d/1wGkpesWGgX93Cc6mPccLYCRVo8eLUyAN/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Americans+in+The+Netherlands.mov",
         award: "Best Foreign Film"
     },
     {
         title: "Calvin Mullet Tree: The Sequel",
         author: "Matitti",
-        url: "https://drive.google.com/file/d/1oQeYhdq7e0g3A3znxbJq_AyQ8BEJRwCZ/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Calvin+Mullet+Tree+2+The+Sequel.mov",
         award: "Most Medium Film"
     },
     {
@@ -86,7 +86,7 @@ const films2025 = [
     {
         title: "Crotch Watcher's Day Off",
         author: "Josie Francis & Nicole Agner",
-        url: "https://drive.google.com/file/d/18VpZklfBR3PkrN-JgxDp9fKpZsfWtpmp/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/crotch+watchers_day+off.mov",
         award: "Best Sequel"
     },
     {
@@ -110,7 +110,7 @@ const films2025 = [
     {
         title: "No Matter What You Do, Do Not Play Fireflies",
         author: "Nick Azpiroz, Aileen Lerch, Malaika Murphy-Sierra",
-        url: "https://drive.google.com/file/d/1OupFa3EvK3BdzUft8pwBtMXOWKmH1os3/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/No+Matter+What+You+Do%2C+Do+Not+Play+Fireflies.mp4",
         award: "Best Prequel"
     },
     {
@@ -128,13 +128,13 @@ const films2025 = [
     {
         title: "From Below",
         author: "Jill Sanford",
-        url: "https://drive.google.com/file/d/1NbxIqLRGfD00lnb9eRoNpJIgAa8DAOQY/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/From+Below.mp4",
         award: "Best Animated Film"
     },
     {
         title: "Fireflies Part 2: Owl City Comeback",
         author: "Malaika, Nick Azpiroz, Alec (Intimacy Coordinator)",
-        url: "https://drive.google.com/file/d/1ZVgWTnm7T1bUUd0reeG4ko8mM6kxDA6g/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Fireflies+Part+2.mp4",
         award: "Best Quel"
     },
     {
@@ -158,13 +158,13 @@ const films2025 = [
     {
         title: "How To Scan A Polyclam",
         author: "Wyatt Roy, Julia Mattis",
-        url: "https://drive.google.com/file/d/1ioAEc3CWYZinuj8Evph-50kF2vsRFftU/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/How+To+Scan+A+Polyclam.mp4",
         award: "Best Performance in the DVD Bonus Features"
     },
     {
         title: "ideas girl",
         author: "erika francks",
-        url: "https://drive.google.com/file/d/1A8RSeHc_BAo5_NXrBE3fxI2HVdqAq33T/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Ideas+girl.mp4",
         award: "Biggest Procrastination Payoff"
     },
     {
@@ -176,19 +176,19 @@ const films2025 = [
     {
         title: "Let's Get Batarded",
         author: "Molly Marshall, Aidan Anderson",
-        url: "https://drive.google.com/file/d/1m3JpNzhvdJ8QWmqQXSGqJsfRicJS6ksZ/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Let_s+Get+Batarded.mp4",
         award: "Best Sound Design"
     },
     {
         title: "Long Shot",
         author: "JB, Alex, Rebs",
-        url: "https://drive.google.com/file/d/14BfU894oKbrif0WUop5KcEpJhibt3l5V/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/sofi+tukker.mov",
         award: "Longest Short Film"
     },
     {
         title: "LOONACY",
         author: "Jeff, JoJo, & Mika Studebaker",
-        url: "https://drive.google.com/file/d/1D8C0HMcx_uv7--vq8B_XXkJ7y4vOYts_/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Loonacy+Final.mov",
         award: "Best Bloopers"
     },
     {
@@ -212,7 +212,7 @@ const films2025 = [
     {
         title: "movement: a sindance palate cleanser",
         author: "Lea Eaton, Elliott Spelman",
-        url: "https://drive.google.com/file/d/1BUMCAA0YxjwzG7fQePllNY2skhmjJgb2/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/movement+-+a+sindance+palate+cleanser.mp4",
         award: "Best Cinematography"
     },
     {
@@ -230,7 +230,7 @@ const films2025 = [
     {
         title: "Reflections",
         author: "Nisha Burton, Gigi Falk",
-        url: "https://drive.google.com/file/d/1vZUajZZr12ct6hYXZRKahHOrOX7j2yXg/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Reflections.m4v",
         award: "Boldest Artistic Leap"
     },
     {
@@ -253,13 +253,13 @@ const films2025 = [
     {
         title: "The Home Office",
         author: "Deirdre, Sam, Thomas, Hannah, Erika, Tyler, Matty, Ben, Blaire",
-        url: "https://drive.google.com/file/d/1k5SfxJYIYLy_oB3j9mJjMmQyzoJoM7Lp/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/The+Home+Office.mp4",
         award: "The Calvin Studebaker Lifetime Achievement Award for Excellence in Television"
     },
     {
         title: "The Making of THE PRIZE",
         author: "Sidney Durant, Becca Scott, Bronwyn Huddleson",
-        url: "https://drive.google.com/file/d/1nT4IEPBKDZVhjsaSJKZ5_pHLQPwpIBpf/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/the-making-of-the-prize.mp4",
         award: 'Best "Design Thinking"'
     },
     {
@@ -271,7 +271,7 @@ const films2025 = [
     {
         title: "Toy Story II Most Wanted",
         author: "Rodney & Darien",
-        url: "https://drive.google.com/file/d/1Fqwz0RvKYHdyLjJbjHYv3kyMDAw6Ar_a/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Toy+Story+II.MOV",
         award: "Best One-Shot Film"
     },
     {
@@ -283,25 +283,25 @@ const films2025 = [
     {
         title: "Uncomfortable Shoes",
         author: "Matty",
-        url: "https://drive.google.com/file/d/1_tXu717DmfbmrqOGEMdOLzfD-mniS6n9/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Uncomfortable+Shoes.mov",
         award: "Best Set Design"
     },
     {
         title: "We're so fucking haunted",
         author: "Caroline McArthur",
-        url: "https://drive.google.com/file/d/1vHYG_inbhQ8Y-iNJFjRdnzDdgt-OdvRy/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/We_re+so+fucking+haunted.mp4",
         award: "Shortest Long Film"
     },
     {
         title: "Moment of Zen",
         author: "Dan, Yeji, and Liam",
-        url: "https://drive.google.com/file/d/1Z9P-dWjajSz142bI42414eM1Mxev57KO/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Moment+of+Zen.mov",
         award: "Best Blocking"
     },
     {
         title: "Sneak Peak - Severance Season 3",
         author: "Davis Johnson",
-        url: "https://drive.google.com/file/d/1gD-ZUih-2JDRtqtUtTgtoq5-g5TunLG1/preview",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Severance+3.mp4",
         award: "Mattflix Award for Best Pirated Film"
     }
 ]
@@ -333,14 +333,17 @@ function addFilmRow() {
                     <span class="film-author">a film by ${film.author}</span>
                 </div>
             `;
-            let iframeHTML = `<iframe src="${film.url}" allow="autoplay"></iframe>`;
-            if (film.url.includes("youtube")) {
-                iframeHTML = `<iframe width="560" height="315" src="${film.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+            let videoHTML = `<iframe src="${film.url}" allow="autoplay"></iframe>`;
+            if (film.url.includes('sindance-public.s3.us-west-1.amazonaws.com')) {
+                videoHTML = `<video src="${film.url}" controls></video>`;
+            }
+            else if (film.url.includes("youtube")) {
+                videoHTML = `<iframe width="560" height="315" src="${film.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
             }
             else if (film.url.includes("vimeo")) {
-                iframeHTML = `<iframe src="${film.url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+                videoHTML = `<iframe src="${film.url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
             }
-            filmTile.innerHTML += iframeHTML;
+            filmTile.innerHTML += videoHTML;
             filmRow.appendChild(filmTile);
         }
     }
