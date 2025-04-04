@@ -241,7 +241,7 @@ const films2025 = [
     {
         title: "Strategy King: A Sindance Blokbuster",
         author: "Cougar & Aaron",
-        url: "https://www.youtube.com/watch?v=HZEq56pIyX0",
+        url: "https://www.youtube.com/embed/HZEq56pIyX0?si=Av0FXw37Rvrm3i46",
         award: "Best Special Effects"
     },
     {
