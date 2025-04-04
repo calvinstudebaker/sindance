@@ -239,6 +239,12 @@ const films2025 = [
         url: "https://drive.google.com/file/d/1PHqRy6DegiTbvCZeLvD36TV1eNw1cub7/preview",
     },
     {
+        title: "Strategy King: A Sindance Blokbuster",
+        author: "Cougar & Aaron",
+        url: "https://www.youtube.com/watch?v=HZEq56pIyX0",
+        award: "Best Special Effects"
+    },
+    {
         title: "The Best Day of My Life",
         author: "Peter Doyle",
         url: "https://www.youtube.com/embed/HV8hKJviSco?si=Sp9IN735fkItM3gj",
