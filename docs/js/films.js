@@ -1,4 +1,6 @@
-const films2025 = [
+const filmsByYear = {};
+
+filmsByYear[2025] = [
     {
         title: "Beans",
         author: "Caroline and Justin Desrosiers",
@@ -309,14 +311,250 @@ const films2025 = [
         author: "Davis Johnson",
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2025/Severance+3.mp4",
         award: "Mattflix Award for Best Pirated Film"
+    }
+];
+
+filmsByYear[2026] = [
+    {
+        title: "Werthering Heights",
+        author: "Caroline and Justin Desrosiers",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Werthering+Heights.mov",
+        award: "Best Film"
+    },
+    {
+        title: "Crying: The Movie: The Making of an Emotional Scene: The Scene",
+        author: "Zach Morrisey, Charlie Zamanian, Greg Lund, Alaina Senear",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/crying.mp4",
+        award: "Worst Film"
+    },
+    {
+        title: "oops ded",
+        author: "Ramzi, Lindsay, Chery, Jason, Casey, Ben, Noops, Charlie",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/oops+ded.mp4",
+        award: "Most Average Film"
+    },
+    {
+        title: "67N8",
+        author: "Nate Lohn",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/67N8.mp4",
+        award: "Most Upsetting Camera Angle"
+    },
+    {
+        title: "Are They Real? Or Are They Fake?",
+        author: "Aidan Cullen & Evan DiMarco",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Are+They+Real.mov",
+        award: "Best One-Shot Film"
+    },
+    {
+        title: "AUDIO TEST REMASTERED",
+        author: "Cole Hatton",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/AUDIO+TEST+REMASTERED.mov",
+        award: "Best Sound Design"
+    },
+    {
+        title: "Baby Brezza",
+        author: "Annee Garton",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Baby+Brezza.mp4",
+        award: "Best Product Placement"
+    },
+    {
+        title: "Barrel Quest",
+        author: "Marwan, Hugo, Nahla",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Barrel+Quest.mp4",
+        award: "Most Medium Film"
+    },
+    {
+        title: "Big Tech",
+        author: "Matty",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Big+Tech.mov",
+        award: 'Best "Design Thinking"'
+    },
+    {
+        title: "Biscuit Base",
+        author: "Caroline Marks",
+        url: "https://player.vimeo.com/video/1179970520?h=abfc6915d8",
+        award: "Disqualified Award for AI Sloppiness"
+    },
+    {
+        title: "Burners, man",
+        author: "Erika Noble & Tyler Conklin",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Burners%2C+man.mov",
+        award: "Smoking Loon Award for Integrity in Film"
+    },
+    {
+        title: "Chomper",
+        author: "Dice & Quiqueg",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Chomper.mp4",
+        award: "Best Nature Documentary"
+    },
+    {
+        title: "Choose Your POO",
+        author: "Linnea & Leanna",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Choose+Your+POO.mp4",
+        award: "Teen Choice Award"
+    },
+    {
+        title: "DistanceHeartGrow",
+        author: "Jeffrey Propp and Dani Lyle",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/DistanceHeartGrow.mp4",
+        award: "Best Screenplay"
+    },
+    {
+        title: "Forever Young",
+        author: "Aileen Lerch, Alex Walker, James Price, Nicoletta Heidegger, Will St Amant",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Forever+Young.mp4",
+        award: "Boldest Artistic Leap"
+    },
+    {
+        title: "In Memoriam",
+        author: "Marley Studebaker, Joanne Studebaker, and Jeff Studebaker",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/In+Memoriam.mov",
+        award: "Best Crying Moment"
+    },
+    {
+        title: "Jonny's Secret: A Pepperoni Prophecy",
+        author: "Cougar, Aaron & Jonny",
+        url: "https://www.youtube.com/embed/Qf3F_QsLdPQ?si=2W85XcxIhCixr4R3",
+        award: "Best Editing"
+    },
+    {
+        title: "kneewheeling",
+        author: "Brian Broom-Peltz, Liz Neudeck, Sidney Durant, Grace Coady, Brody Kellish",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/kneewheeling.mov",
+        award: "Best All Female Reboot, Best Stunts"
+    },
+    
+    {
+        title: "Lunch Meat",
+        author: "Clay Davis and Tim Daly",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/LunchMeatFinalFinal.mp4",
+        award: "Pulitzer Prize for Investigative Reporting"
+    },
+    {
+        title: "OpenClaws",
+        author: "Marwan, Nahla",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/OpenClaws.mp4",
+        award: "Best Costume Design"
+    },
+    {
+        title: "Peace and Quiet",
+        author: "Patrick Yun and Megatron",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Peace+and+Quiet.mp4",
+        award: "Best Horror Film"
+    },
+    {
+        title: "69th Annual Peanut Butter Mile World Championship",
+        author: "Brooke Hess",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Peanut+Butter+Mile.mp4",
+        award: "Best Sports Documentary"
+    },
+    {
+        title: "SHITTY NEWS - Poopy Pawblem",
+        author: "Holly Schwarz, Daisy, Cori, dsnack",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/poopy+pawblem.mp4",
+        award: "The Calvin Studebaker Lifetime Achievement Award for Excellence in Television"
+    },
+    {
+        title: "raconte moi un voyage",
+        author: "Fred and Delaney Hertlein",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/raconte+moi+un+voyage.mov",
+        award: "Best Family Film"
+    },
+    {
+        title: "rcp 85-delusions of a dying season",
+        author: "Jet Tan, Connor Bennet ",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/rcp+85-delusions+of+a+dying+season.mp4",
+        award: "JD Power and Associates Award for Most Dependable Midsize Crossover SUV"
+    },
+    {
+        title: "RIP Granny",
+        author: "Thomas Churchill & Hannah Young",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/RIP+Granny.mov",
+        award: "Best Regular Effects"
+    },
+    {
+        title: "Running Up that Hill",
+        author: "Michelle Ferris, Kevin Crain",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Running+Up+that+Hill.mp4",
+        award: "Isadora Duncan Award for Excellence in Choreography"
+    },
+    {
+        title: "Self-Conscious",
+        author: "Paul Martinez",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Self-Conscious.mov",
+        award: "Best Animated Film"
+    },
+    {
+        title: "Siri NO",
+        author: "Daisy - Osha",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Siri+NO.mp4",
+        award: "Most Irreverent"
+    },
+    {
+        title: "slices - a sindance palate cleanser",
+        author: "Lea Eaton, Elliott Spelman",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Slices.mp4",
+        award: "Best Cinematography, Best Prequel"
+    },
+    {
+        title: "STFU: Sindance Filmmakers and Technicians Union: An Origin Story",
+        author: "Matt Simon",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/STFU_Sindance_Technicians_and_+Filmmakers_Union.mp4",
+        award: "Best Villain"
+    },
+    {
+        title: "Tantalus",
+        author: "Jason Toups and Danny Roza",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Tantalus.mov",
+        award: "Best Quel"
     },
     {
         title: "télétravail",
-        author: "Tony Dykstra",
+        author: "Tony Dykstra, Kyle Fopma",
         url: "https://www.youtube.com/embed/k8cAA-unfkE?si=mHElQw15IgRd1MGj",
-        award: "Latest Submission (4 days late)"
-    }
-]
+        award: "Rookie of the Year"
+    },
+    {
+        title: "The Life and Times of Fingerlina 2",
+        author: "Ehrland Hollingsworth & Drew Barclay",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/The+Life+and+Times+of+Fingerlina.mov",
+        award: "Best Sequel"
+    },
+    {
+        title: "Three People in A Hot Tub: A Snuff Film",
+        author: "Lauren Barnes, Grace Kerfoot, Taylor Pecsok, Lea Bartlett, Tim Varner",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Three+People+in+a+Hot+Tub.mov",
+        award: "Most Likely to Become a Cult Classic"
+    },
+    {
+        title: "ThrowingAFit",
+        author: "Quaid Garton",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/ThrowingAFit.mov",
+        award: "Biggest Procrastination Payoff"
+    },
+    {
+        title: "Tight, Like these Jeanz",
+        author: "Banana Dailey",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Tight%2C+Like+these+Jeanz.mov",
+        award: "Most Straightforward, Regular Old Film"
+    },
+    {
+        title: "TOAST",
+        author: "Jimmy Guido, Charlotte Martin",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/TOAST.mov",
+        award: "Best Musical"
+    },
+    {
+        title: "The Search For Lake Louise",
+        author: "Deirdre, Sam & Thomas",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Lake+Louise.mp4",
+        award: "Highest Budget"
+    },
+];
+
+const yearMatch = window.location.pathname.match(/films(\d{4})/);
+const currentYear = yearMatch ? parseInt(yearMatch[1]) : 2025;
+const films = filmsByYear[currentYear] || [];
 
 let currentFilmIndex = 0;
 
@@ -325,8 +563,8 @@ function addFilmRow() {
     filmRow.className = 'film-row';
 
     for (let i = 0; i < 2; i++) {
-        if (currentFilmIndex + i < films2025.length) {
-            const film = films2025[currentFilmIndex + i];
+        if (currentFilmIndex + i < films.length) {
+            const film = films[currentFilmIndex + i];
             const filmTile = document.createElement('div');
             filmTile.className = 'film-tile';
 
@@ -376,7 +614,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.onscroll = function() {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50) {
-        if (currentFilmIndex < films2025.length) {
+        if (currentFilmIndex < films.length) {
             addFilmRow();
         }
     }

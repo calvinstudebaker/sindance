@@ -1,9 +1,9 @@
-const numAwards = 61;
+const numAwards = 51;
 
 function highlightAward(num) {
     const mainAward = document.getElementById('mainAward');
     const scrollGallery = document.querySelector('.scroll-gallery');
-    mainAward.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/${num}.gif`;
+    mainAward.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2026+Awards/${num}.gif`;
     // Find and scroll the thumbnail into view if it exists
     const thumbnails = scrollGallery.querySelectorAll('.award-tile');
     thumbnails.forEach(img => img.classList.remove('selected'));
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add first 20 award images
     for (let i = 1; i <= 20; i++) {
         const img = document.createElement('img');
-        img.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/${i}.gif`;
+        img.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2026+Awards/${i}.gif`;
         img.classList.add('award-tile');
         img.alt = `Award ${i}`;
         scrollGallery.appendChild(img);
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 for (let i = lastLoadedAward + 1; i <= loadUntil; i++) {
                     const img = document.createElement('img');
-                    img.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2025+Awards/${i}.gif`;
+                    img.src = `https://sindance-public.s3.us-west-1.amazonaws.com/Sindance+2026+Awards/${i}.gif`;
                     img.classList.add('award-tile');
                     img.alt = `Award ${i}`;
                     scrollGallery.appendChild(img);
