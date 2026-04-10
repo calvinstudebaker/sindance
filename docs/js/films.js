@@ -334,18 +334,6 @@ filmsByYear[2026] = [
         award: "Most Average Film"
     },
     {
-        title: "67N8",
-        author: "Nate Lohn",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/67N8.mp4",
-        award: "Most Upsetting Camera Angle"
-    },
-    {
-        title: "Are They Real? Or Are They Fake?",
-        author: "Aidan Cullen & Evan DiMarco",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Are+They+Real.mov",
-        award: "Best One-Shot Film"
-    },
-    {
         title: "AUDIO TEST REMASTERED",
         author: "Cole Hatton",
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/AUDIO+TEST+REMASTERED.mov",
@@ -362,12 +350,6 @@ filmsByYear[2026] = [
         author: "Marwan, Hugo, Nahla",
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Barrel+Quest.mp4",
         award: "Most Medium Film"
-    },
-    {
-        title: "Big Tech",
-        author: "Matty",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Big+Tech.mov",
-        award: 'Best "Design Thinking"'
     },
     {
         title: "Biscuit Base",
@@ -423,13 +405,6 @@ filmsByYear[2026] = [
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/kneewheeling.mov",
         award: "Best All Female Reboot, Best Stunts"
     },
-    
-    {
-        title: "Lunch Meat",
-        author: "Clay Davis and Tim Daly",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/LunchMeatFinalFinal.mp4",
-        award: "Pulitzer Prize for Investigative Reporting"
-    },
     {
         title: "OpenClaws",
         author: "Marwan, Nahla",
@@ -443,10 +418,10 @@ filmsByYear[2026] = [
         award: "Best Horror Film"
     },
     {
-        title: "69th Annual Peanut Butter Mile World Championship",
-        author: "Brooke Hess",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Peanut+Butter+Mile.mp4",
-        award: "Best Sports Documentary"
+        title: "67N8",
+        author: "Nate Lohn",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/67N8.mp4",
+        award: "Most Upsetting Camera Angle"
     },
     {
         title: "SHITTY NEWS - Poopy Pawblem",
@@ -539,16 +514,41 @@ filmsByYear[2026] = [
         award: "Most Straightforward, Regular Old Film"
     },
     {
+        title: "The Search For Lake Louise",
+        author: "Deirdre, Sam & Thomas",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Lake+Louise.mp4",
+        award: "Highest Budget"
+    },
+    {
         title: "TOAST",
         author: "Jimmy Guido, Charlotte Martin",
         url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/TOAST.mov",
         award: "Best Musical"
     },
+    // Vertical media - grouped at end to not disrupt grid
     {
-        title: "The Search For Lake Louise",
-        author: "Deirdre, Sam & Thomas",
-        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Lake+Louise.mp4",
-        award: "Highest Budget"
+        title: "69th Annual Peanut Butter Mile World Championship",
+        author: "Brooke Hess",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Peanut+Butter+Mile.mp4",
+        award: "Best Sports Documentary"
+    },
+    {
+        title: "Are They Real? Or Are They Fake?",
+        author: "Aidan Cullen & Evan DiMarco",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Are+They+Real.mov",
+        award: "Best One-Shot Film"
+    },
+    {
+        title: "Big Tech",
+        author: "Matty",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/Big+Tech.mov",
+        award: 'Best "Design Thinking"'
+    },
+    {
+        title: "Lunch Meat",
+        author: "Clay Davis and Tim Daly",
+        url: "https://sindance-public.s3.us-west-1.amazonaws.com/films-2026/LunchMeatFinalFinal.mp4",
+        award: "Pulitzer Prize for Investigative Reporting"
     },
 ];
 
